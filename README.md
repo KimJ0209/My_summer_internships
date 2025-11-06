@@ -18,4 +18,4 @@ I used...
 This code is used to show the image wanted on the website. I found this interesting because of how simple it actually is compared to how complex it looks. I had problems with getting the image to show up, even when it looked simple. I learned other ways to put images on the website and how easy it was.
 
 # Contributions
-I would like to acknowledge [@domlet](**https://github.com/domlet) for providing the repo you forked
+I would like to acknowledge [@domlet](https://github.com/domlet) for providing the repo you forked
