@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/23403876/README.md)
 # My Summer Internships Map 
 ![My Summer Internships Map](img/My_Summer_Internship.png)
 
@@ -10,12 +9,12 @@ _Showing what the map does._
 # technology
 I used...
 1. [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js/guides) library, for styling and displaying maps and route lines, and adding camera behaviors (flyto animations).
-2. [Visual Studio Code](https://code.visualstudio.com/download) to make a README, make sure the map works, with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) and [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extensions.
+2. [Visual Studio Code](https://code.visualstudio.com/download) to make a README, make sure map works, with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) and [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) extensions.
 3. [GitHub pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site), for publishing the app for free!
 
 # Code csnapshot
 <img src="img/carbon (2).png" width="900"/>
-This code is used to show the image wanted on the website. I found this interesting because of how simple it actually is compared to how complex it looks. I had problems with getting the image to show up, even when it looked simple. I learned other ways to put images on the website and how easy it was.
+This code is used to show the image wanted on the website. I found this interesting because of how simple it actally is compared to how complex it looks. I had problems with getting the image to show up, even when it looked simple. I learned other ways to put images on the website and how easy it was.
 
 # Contributions
 I would like to acknowledge [@domlet](https://github.com/domlet) for providing the repo you forked

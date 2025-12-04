@@ -61,6 +61,7 @@
               "properties": {
                 'name': "Pixar",
                 'description': "I went here with my summer program",
+                'image': "img/Pixar-Animation-Studios-Sign-Front-Gate-Copyright-Pixar-Post.jpg"
               }
             },
             {
@@ -72,6 +73,7 @@
               "properties": {
                 'name': "YouthBeat",
                 'description': "My first summer program",
+                'image': "https://images.squarespace-cdn.com/content/v1/59822946bebafb576ae87762/1520295226877-LSSNYHNFI6Z1URWSITPZ/youthbeat_groupshot_wlibby.jpg"
               }
             },
             {
@@ -83,6 +85,7 @@
               "properties": {
                 'name': "Sony",
                 'description': "YouthBeat's sponsers",
+                'image': "https://media.bizj.us/view/img/9080732/303-second-st*900xx1024-576-0-0.jpg"
               }
             }
           ]
@@ -107,11 +110,12 @@
           const coordinates = e.feature.geometry.coordinates.slice();
           const name = e.feature.properties.name;
           const description = e.feature.properties.description;
+          const image = e.feature.properties.image;
           // const image = e.feature.properties.image;
 
           new mapboxgl.Popup()
             .setLngLat(coordinates)
-            .setHTML("<strong>" + name + "</strong><br/>" + description)
+            .setHTML("<img src='" + image + "'><br><strong>" + name + "</strong><br/>" + description)
             // .setHTML("<img src='" + image + "'><br><strong>" + name + "</strong><br/>" + description)
             .addTo(map);
         }
